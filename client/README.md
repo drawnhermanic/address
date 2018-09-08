@@ -1,4 +1,5 @@
-# findanewman
+## Build status
+[![Travis build status](https://travis-ci.org/drawnhermanic/address.svg?branch=master)](https://travis-ci.org/drawnhermanic/address)
 
 > Address book
 

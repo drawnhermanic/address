@@ -26,8 +26,7 @@ const mongoose = require('mongoose')
 const { db: { host, port, name, username, password } } = config
 const connectionString = `mongodb://${username}:${password}@${host}:${port}/${name}`
 
-var options = {
-  useMongoClient: true,
+var options = {  
   autoIndex: false, // Don't build indexes
   reconnectTries: Number.MAX_VALUE, // Never stop trying to reconnect
   reconnectInterval: 500, // Reconnect every 500ms

@@ -1,7 +1,7 @@
 before_install: cd client
 language: node_js
 node_js:
-- 6
+- 10.6.0
 install:
 - yarn install
 script:
